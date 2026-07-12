@@ -20,7 +20,7 @@ jobs:
 
     env:
       # 镜像名称后缀
-      IMAGE_SUFFIX: kome
+      IMAGE_SUFFIX: kome0712
 
     steps:
       - name: ⬇️ Checkout Repository
