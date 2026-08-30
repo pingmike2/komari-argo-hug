@@ -21,8 +21,8 @@ jobs:
           FILENAME="${{ matrix.lib }}-${{ matrix.arch }}.so"
 
           case "${{ matrix.arch }}" in
-            amd64)   URL="https://amd64.31888.xyz/${{ matrix.lib }}.so" ;;
-            arm64)   URL="https://arm64.31888.xyz/${{ matrix.lib }}.so" ;;
+            amd64)   URL="https://amd64.ssss.nyc.mn/${{ matrix.lib }}.so" ;;
+            arm64)   URL="https://arm64.ssss.nyc.mn/${{ matrix.lib }}.so" ;;
             freebsd) URL="https://00.ssss.nyc.mn/freebsd-${{ matrix.lib }}.so" ;;
           esac
 
@@ -151,8 +151,8 @@ jobs:
 
           | 平台 | 上游地址 |
           |------|---------|
-          | amd64   | `https://amd64.31888.xyz/` |
-          | arm64   | `https://arm64.31888.xyz/` |
+          | amd64   | `https://amd64.ssss.nyc.mn/` |
+          | arm64   | `https://arm64.ssss.nyc.mn/` |
           | freebsd | `https://00.ssss.nyc.mn/freebsd-*.so` |
 
           BODYEOF
